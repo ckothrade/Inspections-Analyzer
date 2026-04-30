@@ -1,5 +1,6 @@
-PartID,Measurement,MinTol,MaxTol
-A1,10.02,9.95,10.05
-A2,9.80,9.95,10.05
-A3,10.10,9.95,10.05
-A4,9.97,9.95,10.05
+PartID,Feature,Measurement,MinTol,MaxTol
+A001,Hole Diameter,10.02,9.95,10.05
+A002,Hole Diameter,9.91,9.95,10.05
+A003,Edge Distance,2.51,2.45,2.55
+A004,Edge Distance,2.60,2.45,2.55
+A005,Slot Width,5.00,4.95,5.05
