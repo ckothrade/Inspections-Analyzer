@@ -39,6 +39,7 @@ A002,Hole Diameter,9.91,9.95,10.05
 
 ## Example Output
 
+```text
 Inspection Analysis Complete
 Total Parts Checked: 5
 Passed: 3
