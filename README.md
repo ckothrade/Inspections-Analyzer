@@ -1,27 +1,31 @@
 # Inspection Analyzer
 
-A Python-based tool that simulates automated inspection systems used in manufacturing to validate part measurements against tolerance limits.
+A Python-based inspection analysis tool that processes measurement data and validates each part feature against defined tolerance limits.
+
+## Purpose
+
+This project was built to demonstrate how software can support manufacturing quality workflows by automating tolerance verification, pass/fail classification, and inspection reporting.
+
+## Tools Used
+
+- Python
+- CSV data processing
+- Conditional logic
+- File input/output
+- Basic report generation
 
 ## Features
-- Reads measurement data from a structured dataset
-- Compares values against min/max tolerances
-- Flags PASS/FAIL results
-- Demonstrates quality control automation concepts
 
-## Why I Built This
-This project was created to connect software engineering with real-world manufacturing quality and inspection workflows.
+- Reads structured inspection data from a CSV file
+- Converts measurement and tolerance values into numerical data
+- Compares each measurement against minimum and maximum tolerance limits
+- Assigns PASS/FAIL results
+- Generates a new inspection report CSV
+- Prints a summary of total parts checked, passed, and failed
 
 ## Example Input
 
-PartID,Measurement,MinTol,MaxTol  
-A1,10.02,9.95,10.05  
-A2,9.80,9.95,10.05  
-
-## Example Output
-
-Part A1: PASS  
-Part A2: FAIL  
-
-## How to Run
-```bash
-python main.py
+```csv
+PartID,Feature,Measurement,MinTol,MaxTol
+A001,Hole Diameter,10.02,9.95,10.05
+A002,Hole Diameter,9.91,9.95,10.05
